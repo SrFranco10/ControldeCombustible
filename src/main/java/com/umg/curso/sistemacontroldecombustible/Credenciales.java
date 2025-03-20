@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package com.umg.curso.sistemacontroldecombustible;
 
 import java.awt.event.ActionEvent;
@@ -9,22 +6,16 @@ import java.awt.event.ActionListener;
 import static java.lang.System.exit;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author franc
- */
+
 public class Credenciales extends javax.swing.JFrame implements ActionListener{
 
-    /**
-     * Creates new form Credenciales
-     */
+   
     public Credenciales() {
         initComponents();
         btnIngresar.addActionListener(this);
         btnSalir.addActionListener(this);
     }
 
-   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -74,7 +65,6 @@ public class Credenciales extends javax.swing.JFrame implements ActionListener{
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-   
     public static void main(String args[]) {
        
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -105,7 +95,6 @@ public class Credenciales extends javax.swing.JFrame implements ActionListener{
             }
         });
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIngresar;
     private javax.swing.JButton btnSalir;
